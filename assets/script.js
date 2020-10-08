@@ -5,10 +5,10 @@ $(document).ready(function () {
     var currentHour = moment().format("h");
     console.log(dayScheduler);
     console.log(currentHour)
-    $("#9").addClass("present");
-    // $("#"+currentHour).addClass("present");
-    // $("#"+currentHour).prevAll().addClass("past");
-    // $("#"+currentHour).nextAll().addClass("future");
+    
+    $("#"+currentHour).addClass("present");
+    $("#"+currentHour).prevAll().addClass("past");
+    $("#"+currentHour).nextAll().addClass("future");
     for(var i = 0; i < $(".time-block").length; i++){
         $(".time-block:eq(" + i + ") .description").val(dayScheduler[i]);
         
