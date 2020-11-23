@@ -1,4 +1,5 @@
 # Work Day Scheduler
+Demo (https://ireneasay.github.io/daily-planner/)
 
 ## What is the purpose of this project? 
 The purpose of this project is to create simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
