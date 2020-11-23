@@ -2,7 +2,7 @@ $(document).ready(function () {
     console.log("Loading!");
     var dayScheduler = JSON.parse(localStorage.getItem("scheduler"));
     if(dayScheduler == null) dayScheduler = [];
-    var currentHour = moment().format("h");
+    var currentHour = moment().format("H");
     console.log(dayScheduler);
     console.log(currentHour)
     
